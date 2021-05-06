@@ -1,9 +1,10 @@
-package com.hades.example.android.dagger2_android;
+package com.hades.example.android.dagger2_android.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
+
+import com.hades.example.android.dagger2_android.R;
 
 public class MainActivity extends AppCompatActivity {
 

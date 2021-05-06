@@ -1,4 +1,4 @@
-package com.hades.example.android.dagger2_android;
+package com.hades.example.android.dagger2_android.app;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
