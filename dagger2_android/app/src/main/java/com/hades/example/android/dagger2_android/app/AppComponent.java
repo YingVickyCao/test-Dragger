@@ -13,7 +13,7 @@ import dagger.Component;
 public interface AppComponent {
     UserRepository userRepository();
 
-    Stu userInfo();
+//    Stu userInfo();
 
     void inject(App app);
 

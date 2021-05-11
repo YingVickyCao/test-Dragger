@@ -3,8 +3,6 @@ package com.hades.example.android.dagger2_android.app;
 import android.app.Application;
 import android.util.Log;
 
-import com.hades.example.android.dagger2_android.Stu;
-
 import javax.inject.Inject;
 
 public class App extends Application {
@@ -36,10 +34,10 @@ public class App extends Application {
 
         Log.d(TAG, "onCreate: registerService@" + registerService.hashCode());
 
-        Stu stu = appComponent.userInfo();
-        Stu stu2 = appComponent.userInfo();
-        Log.d(TAG, "onCreate: userInfo@" + stu.hashCode());
-        Log.d(TAG, "onCreate: userInfo2@" + stu2.hashCode());
+//        Stu stu = appComponent.userInfo();
+//        Stu stu2 = appComponent.userInfo();
+//        Log.d(TAG, "onCreate: userInfo@" + stu.hashCode());
+//        Log.d(TAG, "onCreate: userInfo2@" + stu2.hashCode());
     }
 
     public AppComponent appComponent() {
